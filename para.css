@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+.div2{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/pexels-jeremy-bishop-2397651.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+h2{
+    position: relative;
+    left:250px;
+    top: 110px;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+
+}
+h1{
+    position: relative;
+    left:630px;
+   top: 100px;
+    width: 400px;
+    height: 90px;
+    padding: 10px;
+    font-family: 'Salsa', cursive;
+    font-size: larger;
+    color: rgb(0, 170, 255);
+}
+.hed{font-size: 60px;
+    color: rgb(33, 102, 102);
+    /* mix-blend-mode: overlay; */
+
+
+}
+.l1{font-size: 50px;
+    color: rgb(33, 102, 102);
+
+    font-family: 'Salsa', cursive;
+
+}
+.l2{
+       mix-blend-mode:hard-light;
+
+
+}
+.hd{font-size: 40px;
+    color: black;
+    mix-blend-mode: overlay;
+
+}
+
+.last{
+    position: relative;
+    left:630px;
+    top: 150px;
+    width: 500px;
+    height: 90px;
+    padding: 10px;
+}
+.div22{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/pexels-lucas-meneses-7019566\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.div23{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/pexels-irfan-shaikh-4596370.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.para{
+    background: linear-gradient(to right,  rgb(128, 196, 225),rgb(243, 245, 246), rgb(99, 189, 2327));
+border-radius: 100px;
+border: 2px solid rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    height: 220px;
+    font-size: 20px;
+}
+.sign{
+    text-decoration: none;
+}
+.nav-btn{
+    border-radius: 20px;
+    background-color: rgb(99, 189, 227);
+}
+.bold{
+    font-size:30px;
+}
+.full{
+overflow: hidden;
+}
+
+
+
+
+
+
+@media(max-width:567px) {
+    .div2{
+        width: 100%;
+    }
+    .hd{
+        left: 10px;
+        font-size: 30px;
+    }
+    .hed{
+        left: 8px;
+        color: rgb(10, 43, 43);
+
+    }
+    p{
+        font-size:x-small;
+        top: 0px;
+        width: 100%;
+    }
+    .div23{
+        width: 100%;
+
+    }
+    .l1{
+        left: 10px;
+        font-size: 30px;
+    }
+    .l2{
+        left: 10px;
+        font-size: 30px;
+    }
+
+
+}
